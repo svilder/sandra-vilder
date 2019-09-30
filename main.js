@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module parse failed: Unexpected token (4:0)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n| import 'bootstrap/scss/bootstrap.scss';\n| import '../stylesheets/application.scss';\n> <<<<<<< HEAD\n| import { initUpdateNavbarOnScroll } from '../components/navbar';\n| =======");
+throw new Error("Module parse failed: Unexpected token (4:0)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n| import 'bootstrap/scss/bootstrap.scss';\n| import '../stylesheets/application.scss';\n> <<<<<<< HEAD\n| <<<<<<< HEAD\n| import { initUpdateNavbarOnScroll } from '../components/navbar';");
 
 /***/ })
 
