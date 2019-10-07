@@ -1,22 +1,11 @@
-# webpack-template
-A Webpack template to easily deploy on GitHub Pages
+# My portfolio
+[My portfolio](https://svilder.github.io/sandra-vilder/)
 
-## Installation
+So you can see the different projets I've been working on. If you have any question, click on the @ logo to email me.
 
-Just clone this repo on your computer and remove `.git` directory.
+## Challenger
+![gif](../src/images/Challenger.gif)
 
-```bash
-cd ~/code/<your_github_nickname>
-git clone git@github.com:grmnlrt/webpack-template.git YOUR_PROJECT_NAME
-cd YOUR_PROJECT_NAME
-rm -rf .git
-yarn install
-git init
-```
+## Outbook
+![gif](../src/images/Outbook.gif)
 
-## Usage
-
-Just few commands to know:
-- `yarn create-gh-pages`: creates your `gh-pages`(run this command only once to create the `gh-pages`)
-- `yarn deploy`: deploys latest changes committed on `master` on your `gh-pages`
-- `yarn server`: starts a server locally and allows you to access to your project on `localhost:8080`
