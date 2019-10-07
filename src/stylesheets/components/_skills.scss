@@ -1,0 +1,21 @@
+.skills{
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  height: 60px;
+  margin: 10px;
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s;
+  transform: translateX(800%) scale(0.95);
+  float: right;
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
