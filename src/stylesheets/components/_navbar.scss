@@ -1,5 +1,11 @@
+.navbar {
+  max-height: 100px;
+}
+
+
 .navbar-lewagon {
   justify-content: space-between;
+  align-items: start;
   background-color: transparent;
   background: transparent;
   transition: 0.2s background-color ease;
@@ -18,5 +24,5 @@
 }
 
 .plus-navbar {
-  margin-top: 65px;
+  margin-top: 105px;
 }
