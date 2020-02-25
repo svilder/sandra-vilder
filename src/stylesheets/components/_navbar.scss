@@ -1,28 +1,19 @@
-.navbar {
+.my-navbar {
   max-height: 100px;
-}
-
-
-.navbar-lewagon {
+  display: flex;
   justify-content: space-between;
   align-items: start;
   background-color: transparent;
   background: transparent;
-  transition: 0.2s background-color ease;
+  position: sticky;
+  top: 16px;
+  margin: 16px;
 }
 
-.navbar-lewagon-white {
-  background-color: white;
+.contact {
+  color: #f5ff04;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
-.plus-navbar {
-  margin-top: 105px;
+.contact:hover {
+  color: #f5ff04;
 }
