@@ -1,15 +1,19 @@
-.navbar {
+.my-navbar {
   max-height: 100px;
+  display: flex;
   justify-content: space-between;
   align-items: start;
   background-color: transparent;
   background: transparent;
-}
-
-.plus-navbar {
-  margin-top: 105px;
+  position: sticky;
+  top: 16px;
+  margin: 16px;
 }
 
 .contact {
+  color: #f5ff04;
+}
+
+.contact:hover {
   color: #f5ff04;
 }
