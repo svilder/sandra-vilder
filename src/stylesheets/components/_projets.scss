@@ -1,6 +1,8 @@
-.gifs {
-  max-width: 700px;
-  margin: 15px;
+@media (min-width: 768px) {
+  .gifs {
+    max-width: 624px;
+    margin: 15px;
+  }
 }
 
 .image {
@@ -14,4 +16,3 @@
   border-radius: 8px;
   margin: 16px;
 }
-
