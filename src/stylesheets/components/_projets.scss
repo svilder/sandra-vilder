@@ -1,7 +1,13 @@
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .gifs {
     max-width: 624px;
     margin: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gifs {
+    max-width: 320px;
   }
 }
 
@@ -11,7 +17,7 @@
 }
 
 .projet {
-  background-color: rgba(245, 255, 4, 0.2);
+  background-color: rgba(245, 4, 4, 0.3);
   padding: 8px;
   border-radius: 8px;
   margin: 16px;
