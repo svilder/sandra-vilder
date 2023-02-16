@@ -19,9 +19,17 @@
   transform: translateY(-3px);
 }
 
+.clock-point {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: $yellow;
+  left: calc(50% - 2px);
+}
+
 .hand {
   width: 50%;
-  height: 3px;
   background: $yellow;
   position: absolute;
   top: 50%;
@@ -29,4 +37,22 @@
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  border-radius: 10px;
+}
+
+.hour-hand {
+  width: calc(50% - 8px);
+  top: 44%;
+  left: 8px; 
+  height: 7px;
+  background: black;
+}
+
+.min-hand {
+  height: 3px;
+}
+
+.second-hand {
+  height: 1px;
+  background: $pink;
 }
