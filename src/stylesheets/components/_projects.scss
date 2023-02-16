@@ -1,13 +1,20 @@
 @media (min-width: 769px) {
-  .gifs {
+  .imgs {
     max-width: 624px;
+    margin: 15px;
+  }
+  .imgs.small {
+    max-width: 312px;
     margin: 15px;
   }
 }
 
 @media (max-width: 768px) {
-  .gifs {
+  .imgs {
     max-width: 320px;
+  }
+  .imgs.small {
+    max-width: 160px;
   }
 }
 
@@ -16,9 +23,9 @@
   justify-content: center;
 }
 
-.projet {
+.project {
   background-color: rgba(245, 4, 4, 0.3);
-  padding: 8px;
+  padding: 8px 40px;
   border-radius: 8px;
   margin: 16px;
 }
