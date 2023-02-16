@@ -3,11 +3,18 @@
     max-width: 624px;
     margin: 15px;
   }
+  .imgs.small {
+    max-width: 312px;
+    margin: 15px;
+  }
 }
 
 @media (max-width: 768px) {
   .imgs {
     max-width: 320px;
+  }
+  .imgs.small {
+    max-width: 160px;
   }
 }
 
