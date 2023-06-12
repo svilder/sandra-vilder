@@ -1,0 +1,17 @@
+.links {
+  a {
+    font-size: 50px;
+    transition: all .2s ease-in-out;
+  }
+  a:hover {
+    font-size: 60px;
+  }
+  li {
+    display: inline;
+    padding: 10px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
