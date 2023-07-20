@@ -1,15 +1,10 @@
 .clock {
   width: 5rem;
   height: 5rem;
-  border: 3px solid $pink;
+  border: 3px solid $yellow;
   border-radius: 50%;
   position: relative;
   padding: .5rem;
-  box-shadow:
-    0 0 0 1px rgba(0,0,0,0.1),
-    inset 0 0 0 1px $pink,
-    inset 0 0 4px black,
-    0 0 10px rgba(0,0,0,0.2);
 }
 
 .clock-face {
@@ -42,9 +37,9 @@
 
 .hour-hand {
   width: calc(50% - 8px);
-  top: 44%;
-  left: 8px; 
-  height: 7px;
+  top: 46%;
+  left: 7px; 
+  height: 5px;
   background: black;
 }
 
@@ -54,5 +49,5 @@
 
 .second-hand {
   height: 1px;
-  background: $pink;
+  background: $yellow;
 }
